@@ -4,10 +4,12 @@ import (
 	"fmt"
 )
 
+const englishHelloPrefix = "Hello, "
+
 // Hello function returns a string
 func Hello(name string) string {
 
-	return "Hello, " + name
+	return englishHelloPrefix + name
 
 }
 
