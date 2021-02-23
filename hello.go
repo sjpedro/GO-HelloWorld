@@ -1,7 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
+
+// Hello function returns a string
+func Hello(name string) string {
+
+	return "Hello, " + name
+
+}
 
 func main() {
-	fmt.Println("Hello, GO World!")
+
+	fmt.Println(Hello("world"))
+
 }
